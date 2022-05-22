@@ -1,0 +1,134 @@
+/************************* BASE STYLES *************************/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+:root {
+    --main-blue: #3071F2;
+    --main-green: #2ABF89;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-blue);
+}
+
+/************************* HEADER STYLES *************************/
+header {
+    padding: 1rem;
+    border-bottom: 1px solid lightgrey;
+    /* position: fixed;
+    width: 100%;
+    top: 0; */
+}
+
+.left-header {
+    color: var(--main-blue);
+}
+
+.left-header form {
+    margin-left: 3rem;
+    background-color: rgb(241, 241, 241);
+}
+
+.left-header input, .left-header button  {
+    border: none;
+    background-color: rgb(241, 241, 241);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.middle-header {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.middle-header span i {
+    color: var(--main-green);
+}
+
+.right-header li a{
+    margin-left: 5rem;
+    color: var(--main-blue);
+}
+
+
+/************************* HERO SECTION STYLES *************************/
+.hero-section {
+    min-height: 100vh;
+}
+
+.hero-image {
+    width: 50%;
+    padding: 1rem
+}
+
+.hero-image  img{
+    width: 100%;
+    height: auto;
+}
+
+.hero-info {
+    width: 50%;
+    padding: 1rem;
+}
+
+.hero-info h1 {
+    font-size: 8rem;
+    margin: 2rem 0;
+}
+
+.hero-info p {
+    margin-bottom: 5rem;
+    line-height: 3rem;
+    letter-spacing: 0.25rem;
+}
+
+.hero-info ul {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.hero-info ul li {
+    background-color: var(--main-blue);
+    padding: 1.25rem 2rem;
+    margin: 0 1rem 1rem 0 ;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.356);
+}
+
+.hero-info ul li a {
+    color: white ;
+}
+
+
